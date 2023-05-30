@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-template"
+version = "0.1.0"
+description = ""
+authors = ["Caspian Sun <1784516575@qq.com>"]
+readme = "README.md"
+packages = [{include = "django_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.1"
+requests = "^2.31.0"
+drf-yasg = "^1.21.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
